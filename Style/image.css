@@ -1,25 +1,30 @@
-body {
+*{
     font-family: 'Lato', sans-serif;
     font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
 }
+
 /* banner  items */
 .banner-text {
     color: #FFF;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 210px;
     margin-left: 500px;
     margin-right: 500px;
 }
+
 .banner-text p {
     text-align: center;
     font-size: 38px;
     font-weight: 400;
+    margin-bottom: 24px;
 }
+
 .banner-text h1 {
     text-align: center;
     font-size: 76px;
     font-weight: 900;
-    line-height: 95px;
 
 }
 
@@ -30,6 +35,42 @@ body {
     background-size: 1584px 720px;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 20px 140px 0 140px;
+    margin: 40px 140px 0 140px;
     display: flex;
+}
+
+/* section-1 */
+.section-1 {
+    text-align: center;
+}
+.section-1 .section-1-text{
+
+}
+
+.section-1 .section-1-text h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-1 .section-1-text p {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.section-1 .section-1-text h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
