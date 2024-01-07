@@ -2,7 +2,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Merriweather', serif;
 }
-
+/* banner  items */
 .banner-text {
     color: #FFF;
     text-align: center;
@@ -10,9 +10,9 @@ body {
     margin-left: 500px;
     margin-right: 500px;
 }
-.banner-text h3 {
+.banner-text p {
     text-align: center;
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 400;
 }
 .banner-text h1 {
