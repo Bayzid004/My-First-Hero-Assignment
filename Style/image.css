@@ -1,4 +1,4 @@
-*{
+* {
     font-family: 'Lato', sans-serif;
     font-family: 'Merriweather', serif;
     margin: 0;
@@ -42,10 +42,10 @@
 /* section-1 */
 .section-1 {
     text-align: center;
+    margin-top: 160px;
 }
-.section-1 .section-1-text{
 
-}
+.section-1 .section-1-text {}
 
 .section-1 .section-1-text h1 {
     color: #F00;
@@ -55,6 +55,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 48px;
 }
 
 .section-1 .section-1-text p {
@@ -63,6 +64,7 @@
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 18px;
 }
 
 .section-1 .section-1-text h3 {
@@ -73,4 +75,85 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 48px;
 }
+
+/* section-2 */
+.section-2 {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    background-size: 1584px 720px;
+    width: 1584px;
+    height: 720px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 40px 140px 0 140px;
+    color: #FFF;
+    display: flex;
+}
+
+.section-2 .section-2-text {
+    margin: 200px 500px auto 200px;
+}
+
+.section-2 .section-2-text h1 {
+    font-size: 76px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}
+
+.section-2 .section-2-text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.section-2 .section-2-text button {
+    border-radius: 10px;
+    background: #774e03;
+    color: #FFF;
+    font-size: 25px;
+    padding: 16px 32px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.section-2 .section-2-text button:hover {
+    background: #F00;
+}
+
+/* .section-3 */
+.section-3 {
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1584px;
+    height: 600px;
+    margin: 40px 140px 0 140px;
+    background-size: 1584px 720px;
+    margin-top: 120px;
+    text-align: center;
+    display: flex;
+}
+
+.section-3 .section-3-text pre {
+    margin: 220px 515px 0 470px;
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+}
+.section-3 .section-3-text button {
+    border-radius: 10px;
+    background: #F00;
+    color: #FFF;
+    font-size: 25px;
+    padding: 16px 32px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.section-3 .section-3-text button:hover {
+    background: rgb(15, 236, 7);
