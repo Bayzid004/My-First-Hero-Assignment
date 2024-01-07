@@ -3,40 +3,45 @@
     font-family: 'Merriweather', serif;
     margin: 0;
     padding: 0;
+
+
+    /* banner  items */
+    .banner-text {
+        color: #FFF;
+        text-align: center;
+        margin-top: 210px;
+        margin-left: 500px;
+        margin-right: 500px;
+    }
+
+    .banner-text p {
+        text-align: center;
+        font-size: 38px;
+        font-weight: 400;
+        margin-bottom: 24px;
+    }
+
+    .banner-text h1 {
+        text-align: center;
+        font-size: 76px;
+        font-weight: 900;
+
+    }
+
+    .banner {
+        background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Banner\ Image.png");
+        width: 1584px;
+        height: 720px;
+        background-size: 1584px 720px;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 40px;
+        display: flex;
+    }
 }
 
-/* banner  items */
-.banner-text {
-    color: #FFF;
-    text-align: center;
-    margin-top: 210px;
-    margin-left: 500px;
-    margin-right: 500px;
-}
-
-.banner-text p {
-    text-align: center;
-    font-size: 38px;
-    font-weight: 400;
-    margin-bottom: 24px;
-}
-
-.banner-text h1 {
-    text-align: center;
-    font-size: 76px;
-    font-weight: 900;
-
-}
-
-.banner {
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Banner\ Image.png");
-    width: 1584px;
-    height: 720px;
-    background-size: 1584px 720px;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 40px 140px 0 140px;
-    display: flex;
+body {
+    margin: 0 140px 120px 140px;
 }
 
 /* section-1 */
@@ -86,7 +91,7 @@
     height: 720px;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 40px 140px 0 140px;
+    margin-top: 120px;
     color: #FFF;
     display: flex;
 }
@@ -130,7 +135,7 @@
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     width: 1584px;
     height: 600px;
-    margin: 40px 140px 0 140px;
+
     background-size: 1584px 720px;
     margin-top: 120px;
     text-align: center;
@@ -143,6 +148,7 @@
     font-size: 32px;
     font-weight: 600;
 }
+
 .section-3 .section-3-text button {
     border-radius: 10px;
     background: #F00;
@@ -157,3 +163,37 @@
 
 .section-3 .section-3-text button:hover {
     background: rgb(15, 236, 7);
+}
+
+/* section-4 */
+.section-4 {
+    display: flex;
+}
+
+.section-4-1stest{
+    margin: 40px 0 0 50px ;
+}
+
+.section-4 .section-4-1stest h4 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.section-4 .section-4-1stest h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.section-4 .section-4-1stest p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 24px 250px 100px 0;
+}
+.section-4 .section-4-image{
+    border: red solid 10px;
+    border-radius: 50%;
+    padding: 15px;
+}
