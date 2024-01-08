@@ -257,14 +257,11 @@ body {
 
 /* section-5 Image */
 
-.image1st {
-    display: block;
+.section-5-image {
+    display: flex;
     justify-content: space-between;
 }
 
-#girl {
-    padding: 75px 0 0 50%;
-}
 
 /* .section-6 */
 .section-6 {
@@ -347,9 +344,11 @@ body {
 }
 
 /* footer */
-.footer{
+.footer {
     background-color: #070211;
+    width: 100%;
 }
+
 .footer-section {
     display: flex;
     padding: 120px 140px 0 140px;
@@ -361,14 +360,16 @@ body {
     font-weight: 500;
     line-height: 40px;
 }
-.footer-image{
+
+.footer-image {
     display: flex;
     justify-content: center;
     margin-top: 48px;
     gap: 24px;
     margin-bottom: 48px;
 }
-.footer-section2{
+
+.footer-section2 {
     display: flex;
     padding: 120px 80px 120px 80px;
     justify-content: space-between;
@@ -378,4 +379,9 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
+}
+
+.line {
+    background: rgba(255, 255, 255, 0.15);
+    text-align: center;
 }
