@@ -222,5 +222,118 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
-    margin-bottom: 26px; 
+    margin-bottom: 26px;
+}
+
+/* select-5 */
+.section-5 .section-5-text {
+    text-align: center;
+    margin: 130px 380px 0 380px;
+}
+
+.section-5 .section-5-text h3 {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.section-5 .section-5-text h1 {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.section-5 .section-5-text h1 span {
+    color: #F00;
+}
+
+.section-5 .section-5-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    max-width: 1300px;
+}
+
+/* section-5 Image */
+
+.image1st {
+    display: block;
+    justify-content: space-between;
+}
+
+#girl {
+    padding: 75px 0 0 50%;
+}
+
+/* .section-6 */
+.section-6 {
+    margin-top: 120px;
+}
+
+.section-6 .section-6-text h3 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.section-6 .section-6-text h1 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.section-6 .section-6-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 20px 500px 48px 0;
+}
+
+
+/* section-7 */
+.section-7 {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.section-7 img {
+    width: 170px;
+    height: 170px;
+}
+
+.section-7 h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.section-7 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    max-width: 1300px;
+    margin: 10px 380px 36px 380px;
+}
+
+.section-7 button {
+    color: #FFF;
+    font-size: 25px;
+    padding: 16px 32px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+}
+.section-7 input {
+    color: black;
+    font-size: 25px;
+    padding: 16px 32px;
+    font-weight: 700;
+    border: none;
 }
