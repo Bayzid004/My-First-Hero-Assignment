@@ -291,7 +291,8 @@ body {
     line-height: 22px;
     margin: 20px 500px 48px 0;
 }
-.image-container{
+
+.image-container {
     display: flex;
     justify-content: space-between;
     padding: 30px 30px 30px 0;
@@ -335,12 +336,46 @@ body {
     border-radius: 0px 50px 50px 0px;
     background: #F00;
 }
+
 .section-7 input {
     color: black;
     font-size: 25px;
     padding: 16px 32px;
     font-weight: 700;
     border: none;
+    padding: 120px;
 }
 
 /* footer */
+.footer{
+    background-color: #070211;
+}
+.footer-section {
+    display: flex;
+    padding: 120px 140px 0 140px;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+.footer-image{
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    gap: 24px;
+    margin-bottom: 48px;
+}
+.footer-section2{
+    display: flex;
+    padding: 120px 80px 120px 80px;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
