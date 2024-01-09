@@ -257,19 +257,28 @@ body {
 
 /* section-5 Image */
 
-.section-5-image {
-   display: flex; 
+.image5{
     position: relative;
-    margin-top: 64px;
+    display: flex;
 }
-#imgirl{
-    margin: 64px 0 0 auto;
+.discount{
+    position: relative;
+    top: -350px;
+    left: -140px;
 }
-#img50{
-    margin: 90px 290px auto auto;
+.girl{
+   position: relative;
+   top: 250px; 
+   left: 394px;
 }
-#box{
-    
+.box{
+    position: relative;
+    top: 100px;
+}
+.backred{
+    width: 1620px;
+    position: relative;
+    top: -65px;
 }
 /* .section-6 */
 .section-6 {
