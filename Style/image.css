@@ -258,11 +258,19 @@ body {
 /* section-5 Image */
 
 .section-5-image {
-    display: flex;
-    justify-content: space-between;
+   display: flex; 
+    position: relative;
+    margin-top: 64px;
 }
-
-
+#imgirl{
+    margin: 64px 0 0 auto;
+}
+#img50{
+    margin: 90px 290px auto auto;
+}
+#box{
+    
+}
 /* .section-6 */
 .section-6 {
     margin-top: 120px;
